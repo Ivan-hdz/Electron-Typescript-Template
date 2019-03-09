@@ -1,0 +1,14 @@
+{
+  "name": "minisaesudp",
+  "version": "1.0.0",
+  "description": "MiniSAES usando UDP",
+  "main": "app.js",
+  "scripts": {
+    "test": "tsc & electron app.js"
+  },
+  "author": "Ivan-Hdz",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^4.0.8"
+  }
+}
