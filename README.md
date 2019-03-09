@@ -1,4 +1,4 @@
 # Electron-Typescript-Template
 Electron Typescript Template
-#Dependencias
+# Dependencias
 -Typescript Compiler
