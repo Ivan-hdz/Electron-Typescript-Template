@@ -1,14 +1,25 @@
 {
-  "name": "minisaesudp",
+  "name": "minisaes-server",
   "version": "1.0.0",
-  "description": "MiniSAES usando UDP",
-  "main": "app.js",
+  "description": "Minisaes server-side",
+  "main": "dist/server.js",
   "scripts": {
-    "test": "tsc & electron app.js"
+    "compile-ts": "tsc",
+    "start": "npm run serve",
+    "serve": "node dist/server.js",
+    "watch-node": "nodemon dist/server.js",
+    "watch-ts": "tsc -w"
   },
   "author": "Ivan-Hdz",
   "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "@types/node": "^11.11.0",
+    "express": "^4.16.4"
+  },
   "devDependencies": {
-    "electron": "^4.0.8"
+    "nodemon": "^1.18.10",
+    "tslint": "^5.13.1",
+    "typescript": "^3.3.3333"
   }
 }
